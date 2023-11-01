@@ -4,14 +4,50 @@ a:link {
   
 /* visited link */
 a:visited {
-    color: green;
+    color: rgb(195, 233, 195);
 }
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: rgb(255, 255, 255);
 }
   
 /* selected link */
 a:active {
-color: purple;
+color: white;
+}
+
+/* page headings */
+
+/* subheadings */
+.subhead {
+    color: red;
+    font-size: 30px;
+}
+
+/* navbar */
+#navbar {
+    background-color: red;
+    font-size: 20px;
+}
+
+/* featured guest pics */
+.featured {
+    border-radius: 50%;
+    width: 300px ;
+    height: 300px;
+
+}
+
+/* other guest pics */
+.otherguest {
+    border-radius: 8px;
+    width: 130px;
+    height: 100px;
+
+}
+
+/* other guest name */
+.title {
+    font-size: 20px;
+    font-weight: bold;
 }
