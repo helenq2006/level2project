@@ -4,7 +4,7 @@ a:link {
   
 /* visited link */
 a:visited {
-    color: rgb(195, 233, 195);
+    color: rgb(255, 255, 255);
 }
 /* mouse over link */
 a:hover {
@@ -13,10 +13,13 @@ a:hover {
   
 /* selected link */
 a:active {
-color: white;
+color: red;
 }
 
 /* page headings */
+h1 {
+    font-size: 65px;
+}
 
 /* subheadings */
 .subhead {
@@ -29,6 +32,34 @@ color: white;
     background-color: red;
     font-size: 20px;
 }
+
+ul {
+    list-style-type: none;
+    margin: none;
+    padding: none;
+    overflow: hidden;
+    background-color: black;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .active {
+    background-color: lightslategrey;
+  }
 
 /* featured guest pics */
 .featured {
@@ -51,3 +82,10 @@ color: white;
     font-size: 20px;
     font-weight: bold;
 }
+
+.eventpics {
+    width: 550px;
+    height: 350px;
+}
+
+/* remember to add media queries and css grids 
