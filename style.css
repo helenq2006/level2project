@@ -20,6 +20,11 @@ color: red;
 h1 {
     font-size: 65px;
     text-align: center;
+    color:white;
+}
+
+h2 {
+    font-size: 40px;
 }
 
 /* subheadings */
@@ -62,23 +67,34 @@ ul {
     background-color: lightslategrey;
   }
 
+  body {
+    background-color: #333;
+  }
 
-/*main page align*/
-#main {
-    display: flex;
 
+  #info {
+    color: white;
+  }
+  #main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
-/*main text*/
-#maintext {
-    font-size: 40px;
-}
-
-/*main pic*/
 #mainpic {
-    width: 500px;
-    height: 400px;
-    margin: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#maintext {
+    font-size: 18px;
+    line-height: 1.6;
 }
 /* featured guest pics */
 .featured {
@@ -100,6 +116,7 @@ ul {
 .title {
     font-size: 23px;
     font-weight: bold;
+    color:white;
 }
 
 .eventpics {
@@ -281,4 +298,17 @@ input[type="button"]:hover {
     color: white;
 }
 
-/* add css grids for events and highlights*/
+/* add css grids for highlights*/
+#highlights {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+    padding: 10px;
+}
+
+.pic {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
