@@ -78,6 +78,7 @@ ul {
 #mainpic {
     width: 500px;
     height: 400px;
+    margin: 10px;
 }
 /* featured guest pics */
 .featured {
@@ -131,17 +132,13 @@ ul {
         font-weight: bold;
     }
 
-    .featured {
-        font-size:13px;
-    }
-
     #maintext {
         font-size: 20px;
     }
 
     #mainpic {
-        width: 50px;
-        height: 20px;
+        width: 200px;
+        height: 100px;
     }
 
 
@@ -166,10 +163,6 @@ ul {
     .title {
         font-size: 18px;
         font-weight: bold;
-    }
-
-    .featured {
-        font-size:18px;
     }
 
     #maintext {
@@ -203,17 +196,13 @@ ul {
         font-weight: bold;
     }
 
-    .featured {
-        font-size:25px;
-    }
-
     #maintext {
         font-size: 40px;
     }
 
     #mainpic {
-        width: 500px;
-        height: 400px;
+        width: 600px;
+        height: 500px;
     }
 }
 
@@ -291,3 +280,5 @@ input[type="button"]:hover {
     background-color: red;
     color: white;
 }
+
+/* add css grids for events and highlights*/
