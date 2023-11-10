@@ -279,6 +279,7 @@ ul {
 
 #jlcevent, #twbevent, #qpevent, #tbevent, #hcevent {
     display: none;
+    color:white;
 }
 
 input[type="button"], input[type="submit"] {
